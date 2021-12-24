@@ -5,45 +5,36 @@
       <![CDATA[Setting ETO:8]]>
     </line>
     <line>
-      <![CDATA[XL Data:admin]]>
-    </line>
-    <line>
-      <![CDATA[Demo test]]>
-    </line>
-    <line>
       <![CDATA[Closing the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-12-23T08:01:14 IST" name="Default suite" finished-at="2021-12-23T08:01:20 IST" duration-ms="6145">
+  <suite started-at="2021-12-24T07:57:16 IST" name="Default suite" finished-at="2021-12-24T07:57:42 IST" duration-ms="26202">
     <groups>
+      <group name="smoke">
+        <method signature="ValidLogin.testValidLogin()[pri:1, instance:scripts.ValidLogin@2b52c0d6]" name="testValidLogin" class="scripts.ValidLogin"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2021-12-23T08:01:14 IST" name="Default test" finished-at="2021-12-23T08:01:20 IST" duration-ms="6145">
-      <class name="scripts.Demo">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.Demo@5471388b]" started-at="2021-12-23T08:01:14 IST" name="openApp" finished-at="2021-12-23T08:01:18 IST" duration-ms="4492" status="PASS">
+    <test started-at="2021-12-24T07:57:16 IST" name="Default test" finished-at="2021-12-24T07:57:42 IST" duration-ms="26202">
+      <class name="scripts.ValidLogin">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.ValidLogin@2b52c0d6]" started-at="2021-12-24T07:57:16 IST" name="openApp" finished-at="2021-12-24T07:57:33 IST" duration-ms="17166" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Setting ETO:8]]>
             </line>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testA()[pri:0, instance:scripts.Demo@5471388b]" started-at="2021-12-23T08:01:18 IST" name="testA" finished-at="2021-12-23T08:01:19 IST" duration-ms="914" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:scripts.ValidLogin@2b52c0d6]" started-at="2021-12-24T07:57:33 IST" name="testValidLogin" finished-at="2021-12-24T07:57:42 IST" duration-ms="8478" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[XL Data:admin]]>
-            </line>
-            <line>
-              <![CDATA[Demo test]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- testA -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.Demo@5471388b]" started-at="2021-12-23T08:01:19 IST" name="closeApp" finished-at="2021-12-23T08:01:20 IST" duration-ms="701" status="PASS">
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.ValidLogin@2b52c0d6]" started-at="2021-12-24T07:57:42 IST" name="closeApp" finished-at="2021-12-24T07:57:42 IST" duration-ms="513" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closing the Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- scripts.Demo -->
+      </class> <!-- scripts.ValidLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
